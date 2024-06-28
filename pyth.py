@@ -22,7 +22,7 @@ for word in words:
         filter.append(word)
 
 print("The Words of the given text: ")
-print(words)git
+print(words)
 
 print("The Sentences of the given text: ")
 print(sent)
