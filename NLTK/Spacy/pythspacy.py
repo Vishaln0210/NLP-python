@@ -2,7 +2,7 @@ import spacy
 import neuralcoref
 from spacy import displacy
 from textblob import TextBlob
-from transformers import BartTokenizer, BartForConditionalGeneration
+from transformers import Summarizer, BartTokenizer, BartForConditionalGeneration
 
 tokenizer = BartTokenizer.from_pretrained('facebook/bart-large-cnn')
 model = BartForConditionalGeneration.from_pretrained('facebook/bart-large-cnn')
